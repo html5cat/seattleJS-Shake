@@ -6,7 +6,7 @@ Template.seattleJS.thumbnails = function () {
 
 Template.seattleJS.avatarURL = function () {
   return 'http://www.gravatar.com/avatar/' +
-  MD5(userEmail(this)) + '';
+  MD5(userEmail(this)) + '?s=160';
 };
 
 Template.seattleJS.userCount = function () {

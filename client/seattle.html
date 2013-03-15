@@ -1,5 +1,7 @@
 <head>
-  <title>seattle</title>
+  <title>S:JS ❤ Meteor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -12,14 +14,13 @@
 
 <template name="seattleJS">
   <section class="span12">
-    <a class=sjs></a>
+    <a class="sjs"></a>
     <h2><em>{{userCount}}</em> awesome seattleites<h2>
   </section>
 
   <section class="span12">
   {{#each thumbnails}}
     <img src="{{avatarURL}}">
-    {{avatar}}
   {{else}}
     Sign in to be the first one!
   {{/each}}
