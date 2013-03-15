@@ -1,3 +1,5 @@
+// Harlem Shake Bookmarklet by http://blog.moovweb.com/2013/02/happy-valentines-day-internet-behold-the-harlem-shake-bookmarklet/
+
 Template.seattleJS.events = {
   'dblclick .sjs': function (){
 
