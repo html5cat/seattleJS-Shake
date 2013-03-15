@@ -1,5 +1,5 @@
 Template.seattleJS.events = {
-  'click .sjs': function (){
+  'dblclick .sjs': function (){
 
     function c() {
         var e = document.createElement("link");
